@@ -3,7 +3,6 @@
 .open-sans-raleway {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -22,9 +21,11 @@
     padding: 9px 27px;
     font-size: 16px;
 }
-.section-title{
+.title{
     color: #252432;
 }
+
+    
 
 /* nav styles */
 header{
@@ -44,12 +45,35 @@ nav{
 .banner{
     background-image: url(../images/Hero-bg.png);
     text-align: center;
+    padding: 100px 50px;
     margin: 150px 230px;
 }
 .banner h2{
-    display: grid;
     font-size: 65px;
     font-weight: bold;
-    gap: 40px;
 }
-   
+  
+/* action part styles */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    margin-bottom: 120px;
+}
+.action-content h3,
+.action-content p{
+    margin-bottom: 20px;
+}
+.action-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.action-sub-title{
+    color: #25243273;
+}
+.action-image img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
