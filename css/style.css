@@ -146,3 +146,40 @@ nav{
 .light{
     color: #b3b3b3;
 }
+
+
+/* Newsletter Styles */
+
+.newsletter{
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-between;
+}
+.news-title{
+    font-size: 80px;
+    font-weight: 800;
+}
+.contact-form{
+    gap: 19px;
+}
+
+.contact-form label{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-form input{
+    height: 70px;
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
