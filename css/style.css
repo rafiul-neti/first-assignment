@@ -70,13 +70,14 @@ nav{
 /* action part styles */
 
 main{
+  margin-top: 30px;
     background-color: #F5F8FF;
  }
 
 .action{
     display: flex;
     justify-content: space-between;
-    padding: 0 150px;
+    padding: 20px 150px;
     margin-bottom: 120px;
 }
 .action-content h3,
